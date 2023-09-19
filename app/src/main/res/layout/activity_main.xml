@@ -28,6 +28,8 @@
         android:id="@+id/materialCardView"
         android:layout_width="match_parent"
         android:layout_height="350dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
         android:layout_marginHorizontal="20dp"
         app:cardCornerRadius="25dp"
         app:cardElevation="20dp"
@@ -36,19 +38,18 @@
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:paddingVertical="20dp">
 
 
             <TextView
                 android:id="@+id/textView5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
+                android:layout_marginStart="12dp"
                 android:layout_marginTop="16dp"
                 android:padding="20sp"
                 android:text="Email id :"
-                app:layout_constraintBottom_toTopOf="@+id/text"
-
 
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -83,7 +84,8 @@
                 android:id="@+id/button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="112dp"
+                android:paddingHorizontal="30dp"
+                android:layout_marginTop="110dp"
                 android:text="Login"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
